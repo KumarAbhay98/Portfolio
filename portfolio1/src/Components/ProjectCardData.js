@@ -26,8 +26,8 @@ const ProjectData =[
         imgUrl:img2,
         title:"Portfolio",
         about:"A modern looking portfolio based on react and its libraries like AOS , Typewriter , Animate-css , react-vertical-timeline-component , react-scroll etc. For sending the response of the form attached on contact page I used Formspree. Overall the portfolio looks different from the basic usual portfolios. Explore the project Section. ",
-        explore:"https://kumarabhay-portfolio.netlify.app/",
-        github:"https://github.com/KumarAbhay98/react-portfolio"
+        explore:"https://abhaykumarportfolio.netlify.app/",
+        github:"https://github.com/KumarAbhay98/Portfolio"
     },
 
     {
