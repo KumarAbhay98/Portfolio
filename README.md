@@ -44,12 +44,8 @@ Contributions are welcome! If you have suggestions for improvements, open issues
 Feel free to reach out to me through the contact form on my portfolio or connect with me on social media.
 
 - Portfolio:[https://abhaykumarportfolio.netlify.app/]
-- Email: [Your Email Address]
-- LinkedIn: [Your LinkedIn Profile URL]
-- Twitter: [Your Twitter Handle]
+
 
 Thank you for visiting my portfolio!
 
 ---
-
-*Note: Make sure to replace `[Your Portfolio URL]`, `[Your Email Address]`, `[Your LinkedIn Profile URL]`, and `[Your Twitter Handle]` with your actual information.*
