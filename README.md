@@ -2,7 +2,7 @@
 <img width="122" alt="portfoliologo" src="https://github.com/KumarAbhay98/Portfolio/assets/92244303/939c581d-f5b0-441c-85e1-9eb677e3d963">
 
 
-This is a modern and visually appealing portfolio website that I've built using React. The portfolio showcases my work, provides information about me, and allows visitors to get in touch through a contact form powered by Formspree.
+This is a modern and visually appealing portfolio website that I've built using React. The portfolio showcases my work, provides information about me, and allows visitors to get in touch through a contact form powered by Formspree.This is an updated version of my React-portfolio
 
 ## Sections
 
