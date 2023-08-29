@@ -13,6 +13,15 @@ const ProjectData =[
         github:"https://github.com/KumarAbhay98/Boxxoffice"
 
     },
+
+    {
+        imgUrl:img3,
+        title:"Nerdy",
+        about:"This website has few sections like: Tech-dive(It helps to make you updated with latest technologies and tools and blogs(In this I explained issue like-Procrastination, pschycological-problems and much more The Website is fully Responsive.To make it more attractive I included several animated sections using javascript and css very efficiently.",
+        explore:"http://nerrdytechhs.pythonanywhere.com/",
+        github:"https://github.com/KumarAbhay98/nerdytech"
+
+    },
     {
         imgUrl:img2,
         title:"Portfolio",
@@ -20,14 +29,7 @@ const ProjectData =[
         explore:"https://kumarabhay-portfolio.netlify.app/",
         github:"https://github.com/KumarAbhay98/react-portfolio"
     },
-    {
-        imgUrl:img3,
-        title:"Nerdy",
-        about:"This website has few sections like: Tech-dive(It helps to make you updated with latest technologies and tools and blogs(In this I explained issue like-Procrastination, pschycological-problems and much more The Website is fully Responsive.To make it more attractive I included several animated sections using javascript and css very efficiently.",
-        explore:"https://nerddytechh.netlify.app/",
-        github:"https://github.com/KumarAbhay98/Nerdyytechh"
 
-    },
     {
         imgUrl:img4,
         title:"Witchats",
