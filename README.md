@@ -4,7 +4,7 @@
 
 This is a modern and visually appealing portfolio website that I've built using React. The portfolio showcases my work, provides information about me, and allows visitors to connect through a contact form powered by Formspree.This is an updated version of my React-portfolio
 
-# ighthouse-Report
+# lighthouse-Report
 <img width="320" alt="lighthousereport" src="https://github.com/KumarAbhay98/Portfolio/assets/92244303/4d428912-0c36-46cf-ae8c-23f18be14dac">
 
 ## Sections
