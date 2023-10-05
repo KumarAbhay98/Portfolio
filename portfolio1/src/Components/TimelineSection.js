@@ -25,7 +25,9 @@ function TimelineSection() {
     { icon: workIcon, date: '2021-2022', title: 'Trainee, Alumni Interaction Department', subtitle: 'Print and Social Media SubCouncil', desc: 'Worked as a trainee for Alumni Interaction department and took interviews of some renowned personalities.' },
     { icon: schoolIcon, date: '2022-2023', title: 'Senior, Alumni Interaction Department', subtitle: 'Print and Social Media SubCouncil', desc: 'Worked as a senior and worked for the several events like SAMVAD and covered the whole event of Centenary Celebration.' },
     { icon: schoolIcon, date: '2023 - ', title: 'Coordinator', subtitle: 'Print and Social Media SubCouncil', desc: 'After giving interview, Got a post of Coordinator' },
-    { icon: schoolIcon, date: ' March - April 2023', title: 'Webdeveloper Intern', subtitle: 'Suvidha Foundation(Suvidha Mahila Mandal)', desc: 'Worked on creating the wireframes and then the whole UI using frontend tools. Skills:HTML,CSS,JavaScript,         Figma,PHP,  Bootstrap and Git' },
+    { icon: schoolIcon, date: ' March - April 2023', title: 'Webdeveloper Intern', subtitle: 'Suvidha Foundation(Suvidha Mahila Mandal)', desc: 'Designed the website from scratch,Managed the code and team members along with writing the code for frontend, Worked with MongoDBAtlas and Postman and contributed to marketing too.' },
+    { icon: schoolIcon, date: ' Aug - Sept 2023', title: 'Webdeveloper Intern', subtitle: 'PrimaThink', desc: 'Worked on creating reusable UI components using Advance React and TailwindCSS for styling the components.' },
+    { icon: schoolIcon, date: ' Aug - Sept 2023', title: 'Hacktoberfest Maintainer , 2023', subtitle: 'Maintainer of an open source project called "Gym-Khana"', desc: '' },
     { icon: starIcon }
   ];
 

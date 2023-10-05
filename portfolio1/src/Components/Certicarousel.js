@@ -2,6 +2,7 @@ import React, { useState} from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import Hackerrank from '../assets/hackerrankcertificate.png'
 import SuvidhaFoundation from '../assets/finalsuvidhafoundation.jpg'
+import PrimaThink from '../assets/PrimaThink.jpg'
 import Freecodecamp from '../assets/freecodecamp.png'
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './Carousel.css';
@@ -9,7 +10,8 @@ const certificates = [
   // Array of certificate data
   { id: 1, title: 'Problem Solving Certificte from Hackerrank', imageUrl:Hackerrank, info: 'Problem Solving Certificte from Hackerrank' },
   { id: 2, title: 'Internship Certificate at Suvidha Foundation', imageUrl:SuvidhaFoundation, info: 'Internship Certificate at Suvidha Foundation' },
-  { id: 3, title: 'Certificate of Responsive Websites by FreeCodeCamp', imageUrl:Freecodecamp, info: 'Certificate of Responsive Websites by FreeCodeCamp' },
+  { id: 3, title: 'Internship Certificate at PrimaThink', imageUrl:PrimaThink, info: 'Internship Certificate at PrimaThink' },
+  { id: 4, title: 'Certificate of Responsive Websites by FreeCodeCamp', imageUrl:Freecodecamp, info: 'Certificate of Responsive Websites by FreeCodeCamp' },
 ];
 
 const CertificateCarousel = () => {
@@ -22,15 +24,6 @@ const CertificateCarousel = () => {
   const handleClosePopup = () => {
     setPopupCertificate(null);
   };
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     const nextIndex = (popupCertificate?.id || 0) % certificates.length;
-  //     setPopupCertificate(certificates[nextIndex]);
-  //   }, 1000); // Change slide every 5 seconds
-
-  //   return () => clearInterval(interval);
-  // }, [popupCertificate]);
 
   return (
     <>

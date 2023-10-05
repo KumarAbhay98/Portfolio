@@ -3,8 +3,17 @@ import img2 from '../assets/portfoliocover.webp'
 import img3 from '../assets/nerdycover.png'
 import img4 from '../assets/witchats.webp'
 import img5 from '../assets/suvidhaimg.png'
+import img6 from '../assets/FeetSoeSSS.png'
 // Now create a function contains the data of the cards
 const ProjectData =[
+    {
+        imgUrl:img6,
+        title:"FeetSoe",
+        about:"Full stack web application with jwt authentication and expressjs backend along with the benefits of MongoDBAtlas, Ejs template engine. so Its an e-commerce website for a Footwear brand called Feetsoe. The UI is very interactive still we are working on cart functionality. The application is live on Cyclic.",
+        explore:"https://aggressive-bee-zipper.cyclic.cloud/",
+        github:"https://github.com/KumarAbhay98/FeetSoe"
+
+    },
     {
         imgUrl:img1,
         title:"Boxxoffice",
@@ -37,13 +46,6 @@ const ProjectData =[
         explore:"https://witchats.liveblog365.com/",
         github:"https://github.com/KumarAbhay98/Witchats"
 
-    },
-    {
-        imgUrl:img5,
-        title:"Suvidha Foundation",
-        about:"This is the website I worked on during my internship period. I was the team-lead of 10 members. We got a task of redesigning the whole UI from scratch so first we made some wireframes, then figma design and then coding part. We were advised not to use React because they wanted to keep the website simple and easy to maintain. We used HTML/CSS/JS/BOOTSTRAP/PHP. The website has some sliders and a testimonial component which is ver good. below is the deployed link of my work. You can notice changes in the main website live because other they updated the code.",
-        explore:"https://suvidhafoundation98.netlify.app/",
-        github:"https://github.com/KumarAbhay98/Intern_website"
     },
     
 ];

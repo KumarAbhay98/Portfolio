@@ -2,7 +2,7 @@ import React,{useEffect} from 'react';
 import { FaHtml5, FaCss3, FaJs, FaBootstrap, FaReact, FaPython, FaWordpress, FaFigma } from 'react-icons/fa';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { SiTailwindcss, SiJquery, SiDjango } from 'react-icons/si';
+import { SiTailwindcss, SiJquery, SiDjango, SiMongodb, SiJsonwebtokens, SiExpress } from 'react-icons/si';
 import './Skills.css';
 
 const Skills = () => {
@@ -36,8 +36,16 @@ const Skills = () => {
           <p>Tailwind CSS</p>
         </div>
         <div className="skill">
-          <SiJquery className="skill-icon" />
-          <p>jQuery</p>
+          <SiExpress className="skill-icon" />
+          <p>Express</p>
+        </div>
+        <div className="skill">
+          <SiMongodb className="skill-icon" />
+          <p>MongoDB</p>
+        </div>
+        <div className="skill">
+          <SiJsonwebtokens className="skill-icon" />
+          <p>JWT</p>
         </div>
         <div className="skill">
           <FaReact className="skill-icon" />
