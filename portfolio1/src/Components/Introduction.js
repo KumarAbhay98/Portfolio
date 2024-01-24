@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import './Introduction.css';
 import firstImg from '../assets/sittingpose.png';
-import secondImg from '../assets/abhaydp.png';
+import secondImg from '../assets/abhaydp (2).png';
 import Typewriter from 'typewriter-effect';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -12,10 +12,10 @@ const Introduction = () => {
         Aos.init({ duration: 3000 });
     }, []);
     // Run the useEffect hook only for this component
-    
+
     return (
         <div id="introduction_page">
-        
+
             {/* Section 1: Introduction */}
             <section id="section1">
                 <div className="main-introduction">
@@ -41,7 +41,7 @@ const Introduction = () => {
                         </div>
                     </div>
                     <div className="images-introduction">
-                        <img  src={firstImg} alt="Sitting Pose" />
+                        <img src={firstImg} alt="Sitting Pose" />
                     </div>
                 </div>
             </section>
@@ -50,61 +50,69 @@ const Introduction = () => {
             <section id="about">
                 <div className="about-me-introduction">
                     <div className="icon">
-                        <img  src={secondImg} alt="Abhay DP" />
+                        <img src={secondImg} alt="Abhay DP" />
                     </div>
                     <div>
                         <h2>About <span style={{ color: 'rgb(27, 201, 201)' }}>Me</span></h2>
                         <p data-aos="fade-right">
                             {/* Content about Abhay */}
-                            Introducing Abhay Kumar, a dynamic and accomplished 21-year-old web developer and BTech undergraduate student at HBTU Kanpur, Batch 24. Proficient in cutting-edge technologies such as React, Django, and CSS frameworks, he excels in curating aesthetically stunning and user-centric UIs. Driven by an unwavering commitment to excellence, Abhay's portfolio showcases a diverse array of projects that exemplify his prowess in delivering outstanding digital experiences. With an insatiable thirst for innovation and a keen eye for detail, he eagerly anticipates collaborative opportunities that push the boundaries of web development. Embrace the future of digital transformation with Abhay Kumar, where creativity and skill converge to redefine the art of web development.
+                            Meet Abhay Kumar, a dynamic force at the intersection of technology, business acumen, and visionary leadership. <br/>Currently pursuing a BTech in Information Technology at HBTU Kanpur (Batch 24), Abhay demonstrates his versatility by excelling in various domains.<br/><br/>
+
+                            In the field of web development, utilizing technologies such as React, JavaScript, and CSS frameworks to not only create websites but also deliver captivating digital experiences.
+
+                            Abhay's skills extend beyond web development; he possesses a unique combination of technical proficiency and business intelligence. As a data sorcerer, he deciphers the language of data, transforming raw information into actionable insights that drive strategic decision-making.<br/><br/>
+
+                            Abhay's aspirations go beyond traditional job roles. He aims to secure leadership positions, leveraging his expertise in business analysis, IT business analysis, data analysis, and web development to guide organizations towards unparalleled success. His portfolio not only showcases technical skills but also reflects his visionary leadership, embracing challenges, driving innovation, and delivering tangible results.<br/><br/>
+
+                            This portfolio offers a glimpse into the dynamic realm of a professional who defies conventions and charts his own path towards excellence.
                         </p>
                         {/* Contact info */}
-                        <br/>
+                        <br /><br/>
                         <h1 className="animate-hobby">My Hobbies are</h1>
-                        <span style={{color:"rgb(27, 201, 201)",fontSize:'2rem'}}>
-                        <Typewriter 
-                        options={{
-                            autoStart:true,
-                            loop:true,
-                            delay:40,
-                            strings:[
-                                "Singing",
-                                "Sketching",
-                                "Cooking",
-                                "Travelling"
-                            ],
-                        }}/>
+                        <span style={{ color: "rgb(27, 201, 201)", fontSize: '2rem' }}>
+                            <Typewriter
+                                options={{
+                                    autoStart: true,
+                                    loop: true,
+                                    delay: 40,
+                                    strings: [
+                                        "Singing",
+                                        "Sketching",
+                                        "Cooking",
+                                        "Travelling"
+                                    ],
+                                }} />
                         </span>
                     </div>
                 </div>
             </section>
-            <br/><br/>
-            
+            <br /><br />
+
 
             {/* Section 3: Services */}
-            <section id="services" style={{background:'rgba(0, 0, 0, 0.854)'}}>
+            <section id="services" style={{ background: 'rgba(0, 0, 0, 0.854)' }}>
                 <div className="Services">
-                    <br/><br/>
+                    <br /><br />
                     <h2>Our <span style={{ color: 'rgb(27, 201, 201)' }}>Services</span></h2>
                     <div className="services-box">
                         {/* Service info boxes */}
-                        <div   className="info-box">
+                        <div className="info-box">
                             <i className="bi bi-code-slash"></i>
-                            <h3>Web Development</h3>
-                            <p>I can create different modern and eye catching UIs</p>
+                            <h3>Business & Data Analysis</h3>
+                            <p>Data Analysis in order to find out KPIs. To promote decision making in businesses. Skills: Excel, SQL, PowerBI, Python</p>
                         </div>
                         <div className="info-box">
                             <i className="bi bi-wordpress"></i>
-                            <h3>WordPress Development</h3>
-                            <p>Can work upon wordpress websites as well.</p>
+                            <h3>Web Development</h3>
+                            <p>Decent Skill set for Webdevelopment like: JavaScript, React, Bootstrap, TailwindCSS, Express, MongoDB, Django.</p>
                         </div>
-                        <div  className="info-box">
+                        <div className="info-box">
                             <i className="bi bi-bar-chart-fill"></i>
-                            <h3>Content Writer</h3>
-                            <p>I can work as a content writer and as a team leader.</p>
+                            <h3>Creative Content Writer and Leader</h3>
+                            <p>Creatives services are also provided. Anything that needs leadership and effective communication goes with my personality. </p>
                         </div>
                     </div>
-                </div><br/><br/><br/><br/><br/>
+                </div><br /><br /><br /><br /><br />
             </section>
         </div>
     );

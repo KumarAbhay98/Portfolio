@@ -19,15 +19,14 @@ const starIcon = {
 
 function TimelineSection() {
   const timeline = [
-    { icon: workIcon, date: '2016-2017', title: 'Class X', subtitle: 'KapilMuni Childrens Academy', desc: 'I passed my class high school exams in 2017 with Cumulative grade point average of 10.' },
+    { icon: workIcon, date: '2016-2017', title: 'Class X', subtitle: 'KapilMuni Childrens Academy', desc: 'I passed high school exams in 2017 with Cumulative grade point average of 10.' },
     { icon: workIcon, date: '2018-2019', title: 'Class XII', subtitle: 'KapilMuni Childrens Academy , Bewar Mainpuri', desc: 'I passed my intermediate examinations in the year 2019.' },
-    { icon: workIcon, date: '2020-2024', title: 'Btech', subtitle: 'Harcourt Butler Technical University' , desc:'Pursuing btech in Information Technoloy from Harcourt Butler Technical University Kanpur UttarPradesh.  CGPA:8.22'},
-    { icon: workIcon, date: '2021-2022', title: 'Trainee, Alumni Interaction Department', subtitle: 'Print and Social Media SubCouncil', desc: 'Worked as a trainee for Alumni Interaction department and took interviews of some renowned personalities.' },
-    { icon: schoolIcon, date: '2022-2023', title: 'Senior, Alumni Interaction Department', subtitle: 'Print and Social Media SubCouncil', desc: 'Worked as a senior and worked for the several events like SAMVAD and covered the whole event of Centenary Celebration.' },
-    { icon: schoolIcon, date: '2023 - ', title: 'Coordinator', subtitle: 'Print and Social Media SubCouncil', desc: 'After giving interview, Got a post of Coordinator' },
-    { icon: schoolIcon, date: ' March - April 2023', title: 'Webdeveloper Intern', subtitle: 'Suvidha Foundation(Suvidha Mahila Mandal)', desc: 'Designed the website from scratch,Managed the code and team members along with writing the code for frontend, Worked with MongoDBAtlas and Postman and contributed to marketing too.' },
-    { icon: schoolIcon, date: ' Aug - Sept 2023', title: 'Webdeveloper Intern', subtitle: 'PrimaThink', desc: 'Worked on creating reusable UI components using Advance React and TailwindCSS for styling the components.' },
-    { icon: schoolIcon, date: ' Aug - Sept 2023', title: 'Hacktoberfest Maintainer , 2023', subtitle: 'Maintainer of an open source project called "Gym-Khana"', desc: '' },
+    { icon: workIcon, date: '2020-2024', title: 'Btech', subtitle: 'Harcourt Butler Technical University' , desc:'Pursuing btech in Information Technoloy from Harcourt Butler Technical University Kanpur UttarPradesh.  CGPA:8.386'},
+    { icon: workIcon, date: '2021-2022', title: 'Trainee, Alumni Interaction Department', subtitle: 'Print and Social Media SubCouncil', desc: 'Worked as a trainee for Alumni Interaction department and took interviews of some renowned personalities. Drafted many interviews and worked for the magazine.' },
+    { icon: schoolIcon, date: '2022-2023', title: 'Senior, Alumni Interaction Department', subtitle: 'Print and Social Media SubCouncil', desc: 'Worked as a senior for several events like "SAMVAD" and covered the whole event of Centenary Celebration from data curation for magazine to writing articles on the new architectures.' },
+    { icon: schoolIcon, date: '2023 - ', title: 'Coordinator', subtitle: 'Print and Social Media SubCouncil', desc: 'After giving interview, Got a post of Coordinator. I worked for the better of the team from automating the work of newsletter to teaching the core values and introduced some more new members.' },
+    { icon: schoolIcon, date: ' March - April 2023', title: 'Webdeveloper Intern', subtitle: 'Suvidha Foundation(Suvidha Mahila Mandal)', desc: 'Did requirement analysis and led a team of 6-7 members while coding for frontend and contributed to their donation compaign.At last got the chance to work with backend team and used expressjs and mongoDB.' },
+    { icon: schoolIcon, date: ' Aug - Sept 2023', title: 'Webdeveloper Intern', subtitle: 'PrimaThink', desc: 'This Time I worked on react.js and TailwindCSS, created some resuable components by using props and react hooks. It was an internship of one month only.' },
     { icon: starIcon }
   ];
 

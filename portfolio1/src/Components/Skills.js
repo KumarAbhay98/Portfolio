@@ -1,71 +1,100 @@
-import React,{useEffect} from 'react';
-import { FaHtml5, FaCss3, FaJs, FaBootstrap, FaReact, FaPython, FaWordpress, FaFigma } from 'react-icons/fa';
+// Skills.js
+import React, { useEffect, useState } from 'react';
+import {
+  FaHtml5,
+  FaCss3,
+  FaJs,
+  FaBootstrap,
+  FaReact,
+  FaWordpress,
+  FaPython,
+  FaDatabase,
+  FaChartBar,
+  FaFileExcel,
+} from 'react-icons/fa';
+import { SiTailwindcss, SiDjango, SiMongodb, SiExpress } from 'react-icons/si';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
-import { SiTailwindcss, SiJquery, SiDjango, SiMongodb, SiJsonwebtokens, SiExpress } from 'react-icons/si';
 import './Skills.css';
 
 const Skills = () => {
-  useEffect(()=>{
+  const [selectedFilter, setSelectedFilter] = useState('webDevelopment');
+
+  useEffect(() => {
     Aos.init({ duration: 3000 });
-  },[])
+  }, []);
+
+  const webDevelopmentSkills = [
+    { icon: <FaHtml5 className="skill-icon" />, label: 'HTML' },
+    { icon: <FaCss3 className="skill-icon" />, label: 'CSS' },
+    { icon: <FaJs className="skill-icon" />, label: 'JavaScript' },
+    { icon: <FaBootstrap className="skill-icon" />, label: 'Bootstrap' },
+    { icon: <SiTailwindcss className="skill-icon" />, label: 'Tailwind CSS' },
+    { icon: <SiExpress className="skill-icon" />, label: 'Express' },
+    { icon: <SiMongodb className="skill-icon" />, label: 'MongoDB' },
+    { icon: <FaReact className="skill-icon" />, label: 'React' },
+    { icon: <SiDjango className="skill-icon" />, label: 'Django' },
+    { icon: <FaWordpress className="skill-icon" />, label: 'WordPress' },
+  ];
+
+  const dataAnalyticsSkills = [
+    { icon: <FaPython className="skill-icon" />, label: 'Python' },
+    { icon: <FaDatabase className="skill-icon" />, label: 'SQL' },
+    { icon: <FaChartBar className="skill-icon" />, label: 'Power BI' },
+    { icon: <FaFileExcel className="skill-icon" />, label: 'Excel' },
+  ];
+
+  const skillsToShow = selectedFilter === 'webDevelopment' ? webDevelopmentSkills : dataAnalyticsSkills;
+
   return (
-    <div data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-duration="2000" className="skills">
-      <h1 style={{color:'rgb(27, 201, 201)'}}>My Skills</h1>
+    <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000" className="skills">
+      <h1 style={{ color: 'rgb(27, 201, 201)' }}>My Skills</h1>
+
+      {/* Filter Buttons */}
+      <div className="filter-buttons">
+        <button
+          className={`filter-button ${selectedFilter === 'webDevelopment' ? 'active' : ''}`}
+          onClick={() => setSelectedFilter('webDevelopment')}
+        >
+          Web Development
+        </button>
+        <button
+          className={`filter-button ${selectedFilter === 'dataAnalytics' ? 'active' : ''}`}
+          onClick={() => setSelectedFilter('dataAnalytics')}
+        >
+          Data Analytics
+        </button>
+      </div>
+
+      <div className="skills-list">
+        {skillsToShow.map((skill, index) => (
+          <div className="skill" key={index}>
+            {skill.icon}
+            <p>{skill.label}</p>
+          </div>
+        ))}
+      </div>
+   
+      {/* New Soft Skills Section */}
+      <h1 style={{ color: 'rgb(27, 201, 201)', marginTop: '50px' }}>Soft Skills</h1>
       <div className="skills-list">
         <div className="skill">
-          <FaHtml5 className="skill-icon" />
-          <p>HTML</p>
+          <p>Leadership</p>
         </div>
         <div className="skill">
-          <FaCss3 className="skill-icon" />
-          <p>CSS</p>
+          <p>Effective Communication</p>
         </div>
         <div className="skill">
-          <FaJs className="skill-icon" />
-          <p>JavaScript</p>
+          <p>Team Player</p>
         </div>
         <div className="skill">
-          <FaBootstrap className="skill-icon" />
-          <p>Bootstrap</p>
+          <p>Active Listener</p>
         </div>
         <div className="skill">
-          <SiTailwindcss className="skill-icon" />
-          <p>Tailwind CSS</p>
+          <p>Problem Solver</p>
         </div>
         <div className="skill">
-          <SiExpress className="skill-icon" />
-          <p>Express</p>
-        </div>
-        <div className="skill">
-          <SiMongodb className="skill-icon" />
-          <p>MongoDB</p>
-        </div>
-        <div className="skill">
-          <SiJsonwebtokens className="skill-icon" />
-          <p>JWT</p>
-        </div>
-        <div className="skill">
-          <FaReact className="skill-icon" />
-          <p>React</p>
-        </div>
-        <div className="skill">
-          <SiDjango className="skill-icon" />
-          <p>Django</p>
-        </div>
-        <div className="skill">
-          <FaPython className="skill-icon" />
-          <p>Python</p>
-        </div>
-        <div className="skill">
-          <FaWordpress className="skill-icon" />
-          <p>WordPress</p>
-        </div>
-        <div className="skill">
-          <FaFigma className="skill-icon" />
-          <p>Figma</p>
+          <p>Critical Thinking</p>
         </div>
       </div>
     </div>
@@ -73,4 +102,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
